@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: gym-brain
+Version: 0.0.3
+Summary: A simple stochastic OpenAI environment for training RL agents
+Home-page: NA
+Author: Martin Thoma
+Author-email: info@martin-thoma.de
+Maintainer: Martin Thoma
+Maintainer-email: info@martin-thoma.de
+License: MIT
+Download-URL: NA
+Description: This repository contains a PIP package which is an OpenAI environment for
+        simulating a brain enironment.
+        
+        
+        ## Installation
+        
+        Install the [OpenAI gym](https://gym.openai.com/docs/).
+        
+        Then install this package via
+        
+        ```
+        pip install -e .
+        ```
+        
+        ## Usage
+        
+        ```
+        import gym
+        import gym_brain
+        
+        env = gym.make('Brain-v0')
+        ```
+        
+Keywords: utility,reinforcement-learning,RL,openai-gym,openai-environment,artificial-intelligence
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
